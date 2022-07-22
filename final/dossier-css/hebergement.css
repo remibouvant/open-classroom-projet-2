@@ -1,0 +1,93 @@
+.container-left{
+    width: 65%;
+    height: 650px;
+    border-radius: 20px;
+    background: #F2F2F2;
+    float: left;
+}
+.container-principal{
+    width: 100%;
+    height: 650px;
+}
+.title-container{
+    padding: 5% 5% 5% 5%;
+    font-weight: bold;
+}
+.card{
+    width: 29%;
+    height: 200px;
+    background: white;
+    border-radius: 20px;
+}
+.container-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-card-top{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 35px;
+}
+.seemore{
+    padding:5% 5% 5% 5%;
+}
+.img-card{
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 20px 25px 0 0;
+    padding-right: 10px;
+    margin: 5px 0 0 5px;
+}
+.title-card{
+    font-size: 15px;
+    padding: 3% 0% 2% 8%;
+}
+.price-card{
+    padding: 0% 0% 0% 8%;
+    font-size: 13px;
+}
+.colorblue{
+    color: #0065fc;
+}
+.colorgrey{
+    color: #d6d1d1;
+}
+.star{
+    padding: 2% 0% 0% 8%;
+    font-size: 11px;
+}
+.container-right{
+    background: #F2F2F2;
+    height: 650px;
+    border-radius: 20px;
+    width: 30%;
+    float: right;
+}
+.title-container-popular{
+    padding: 10% 0% 10% 10%;
+    font-weight: bold;
+}
+.img-card-popular{
+    object-fit: cover;
+    height: 140px;
+    width: 110px;
+    border-radius: 20px 0 0 20px;
+    padding: 3%;
+}
+.card-popular{
+    
+        border: 2px solid white;
+        border-radius: 20px;
+        background-color: white;
+        height: 145px;
+        width: 290px;
+        display: flex;
+        margin-left: 40px;
+}
+.price-card-popular{
+
+}
+.star-popular{
+    
+}
