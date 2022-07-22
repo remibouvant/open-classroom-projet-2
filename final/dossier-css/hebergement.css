@@ -10,12 +10,12 @@
     height: 650px;
 }
 .title-container{
-    padding: 5% 5% 5% 5%;
+    padding: 3% 0% 3% 5%;
     font-weight: bold;
 }
 .card{
     width: 29%;
-    height: 200px;
+    height: 210px;
     background: white;
     border-radius: 20px;
 }
@@ -29,7 +29,7 @@
     margin-bottom: 35px;
 }
 .seemore{
-    padding:5% 5% 5% 5%;
+    padding:5% 0% 0% 5%;
 }
 .img-card{
     object-fit: cover;
@@ -72,7 +72,7 @@
     padding-right: 2%;
 }
 .title-container-popular{
-    padding: 10% 0% 10% 0%;
+    padding: 7% 0% 11% 0%;
     font-weight: bold;
 }
 .img-card-popular{
@@ -85,8 +85,6 @@
 .card-popular{
     
     border: 2px solid white;
-    background-color: white;   
-    display: flex;
     margin-bottom: 35px;
     width: 100%;
     height: 145px;
@@ -106,4 +104,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media(min-width:1920px) {
+    p.seemore{
+        padding:2% 0% 0% 5%;
+    }
 }
