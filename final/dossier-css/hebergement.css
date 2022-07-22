@@ -53,6 +53,11 @@
 .colorgrey{
     color: #d6d1d1;
 }
+.colorblack{
+    color: black;
+    font-size: 20px;
+    
+}
 .star{
     padding: 2% 0% 0% 8%;
     font-size: 11px;
@@ -63,9 +68,11 @@
     border-radius: 20px;
     width: 30%;
     float: right;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .title-container-popular{
-    padding: 10% 0% 10% 10%;
+    padding: 10% 0% 10% 0%;
     font-weight: bold;
 }
 .img-card-popular{
@@ -77,17 +84,26 @@
 }
 .card-popular{
     
-        border: 2px solid white;
-        border-radius: 20px;
-        background-color: white;
-        height: 145px;
-        width: 290px;
-        display: flex;
-        margin-left: 40px;
+    border: 2px solid white;
+    background-color: white;   
+    display: flex;
+    margin-bottom: 35px;
+    width: 100%;
+    height: 145px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
 }
 .price-card-popular{
-
+    padding: 6% 0% 0% 8%;
+    font-size: 13px;
 }
 .star-popular{
-    
+    padding: 25% 0% 0% 8%;
+    font-size: 11px;
+}
+.title-popular{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
