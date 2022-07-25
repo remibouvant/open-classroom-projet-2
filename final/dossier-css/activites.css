@@ -57,7 +57,7 @@ img.frioul{
 .img-equal{
     height: 225px;
 }
-@media (max-width: 768px){
+@media (max-width: 992px){
     .container-activity{
         display: flex;
         flex-direction: column;

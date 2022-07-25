@@ -1,22 +1,14 @@
 .filter-section {
     font-weight: bolder;
   }
-  @media (max-width: 768px) {
-    .filter-section {
-      width: 100%;
-    }
-  }
+
   .filter {
     display: flex;
     align-items: center;
     gap: 15px;
     flex-wrap: wrap;
   }
-  @media (max-width: 768px) {
-    .filter {
-      gap: 15px;
-    }
-  }
+
   .filter-active {
     cursor: pointer;
     border: 2px solid #f2f2f2;
@@ -60,7 +52,7 @@
     border-radius: 50%;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     .filter-section {
       width: 100%;
     }
@@ -71,8 +63,6 @@
     .info-host {
       align-items: baseline;
     }
-  }
-  @media(max-width: 492px) {
     .info-host{
       padding-left: 3%;
     }
