@@ -35,8 +35,6 @@ header img {
   }
   @media screen and (max-width: 992px){
     
-
-    /* ************navigation bar ***************/
     header {
       display: block;
       border-bottom: 3px solid #f2f2f2;

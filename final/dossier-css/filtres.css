@@ -48,11 +48,6 @@
     display: flex;
     align-items: center;
   }
-  @media (max-width: 768px) {
-    .info-host {
-      align-items: baseline;
-    }
-  }
   .info-icone {
     display: flex;
     align-items: center;
@@ -64,9 +59,16 @@
     height: 30px;
     border-radius: 50%;
   }
+
   @media (max-width: 768px) {
+    .filter-section {
+      width: 100%;
+    }
     .info-icone {
       width: 24px;
       height: 20px;
+    }
+    .info-host {
+      align-items: baseline;
     }
   }
