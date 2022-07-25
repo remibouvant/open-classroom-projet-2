@@ -1,63 +1,93 @@
-.title-marseille{
-    padding-top: 3%;
-    font-weight: 500;
-    padding-bottom: 3%;
+.container-legende{
+    padding: 15px 0 0 15px;
+    border-radius: 20px;
+    font-size: 13px;
 }
-
-
-.full-height-activites{
-    box-shadow: 3px 3px 5px rgb(0 0 0 / 6%);
-    width: 24%;
-    height: 500px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    
-}
-.container-activites{
-    display: flex;
+.container-activity{
+    width: 100%;
     height: 600px;
-    gap: 2%;
+    display: flex;
+    gap: 25px;
 }
-img.full-height{
-    height: 450px;
+.container-vieux-port{
+    width: 23%;
+    box-shadow: 0px 0px 20px #c0c0c0;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.container-activity img {
     width: 100%;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
-.title-activites{
-    padding-top: 4%;
-    padding-left: 5%;
+.container-vieux-port img {
+    height: 550px;
 }
-.half-bloc-activites{
-    box-shadow: 3px 3px 5px rgb(0 0 0 / 6%);
-    width: 24%;
-    height: 230px;
+.activity-title{
+    padding: 3% 0 3% 0;
+}
+img.fort{
+    height: 250px;
+}
+.container-fort{
+    box-shadow: 0px 0px 20px #c0c0c0;
+    overflow: hidden;
     border-radius: 15px;
+    height: 50%;
+}
+.container-frioul{
+    box-shadow: 0px 0px 20px #c0c0c0;
+    overflow: hidden;
+    border-radius: 15px;
+    height: 42%;
+}
+img.frioul{
+    height: 200px;
+}
+.container-half{
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
 }
-img.half-height{
-    height: 190px;
-    width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.title-half-activites{
-    padding-top: 3%;
-    padding-left: 5%;
-    margin-bottom: 20px;
-}
-.half-bloc-bot-activites{
-    box-shadow: 3px 3px 5px rgb(0 0 0 / 6%);
-    width: 100%;
-    height: 230px;
+.container-half-last{
+    box-shadow: 0px 0px 20px #c0c0c0;
+    overflow: hidden;
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    
+    height: 47%;
+}
+.img-equal{
+    height: 225px;
+}
+@media (max-width: 768px){
+    .container-activity{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0% 5% 0% 5%;
+    }
+    .container-vieux-port{
+        width: 100%;
+        height: 300px;
+    }
+    .container-activity img{
+        height: 225px;
+    }
+    .container-legende{
+        padding: 25px 0 0 15px;
+        font-size: 16px;
+    }
+    .container-fort{
+        height: 300px;
+    }
+    .container-frioul{
+        height: 300px;
+    }
+    .container-half-last{
+        height: 300px;
+    }
+    .container-half{
+        gap: 25px;
+    }
+    .activity-title{
+        padding: 3% 0 3% 5% ;
+    }
 }

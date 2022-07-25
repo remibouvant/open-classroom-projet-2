@@ -6,22 +6,13 @@ p.subtitle{
     color: grey;
     margin-bottom: 15px;
 }
-@media screen and (max-width: 441px){
-    h1{
-        font-size: 22px;
-    }
-    
-}
+
 
 
 .search {
     margin-left: 2%;
   }
-  @media (max-width: 768px) {
-    .search {
-      margin-left: 1%;
-    }
-  }
+ 
   .search-zone {
     display: flex;
     margin-bottom: 2%;
@@ -89,4 +80,15 @@ p.subtitle{
       .header-search {
         padding-right: 1%;
       }
+  }
+  @media(max-width:492px){
+    h1.title {
+      padding-left: 3%;
+    }
+    p.subtitle{
+      padding-left: 3%;
+    }
+    .search-zone{
+      padding-left: 3%;
+    }
   }
